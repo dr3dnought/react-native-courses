@@ -16,7 +16,7 @@ const ShowMessageButton = (props) => {
         <Button
             style={styles.button}
             title={props.label}
-            onPress={() => {showMessage(props.message)}}
+            onPress={() => showMessage(props.message)}
         />
     );
 };
